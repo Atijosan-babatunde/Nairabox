@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+}
+
+
+
+
+.navbar{
+    padding-top:1.2rem;
+    background: rgb(248, 248, 248) 0% 0% no-repeat padding-box;
+box-shadow: 0px -3px 10px #00000029;
+/* background-color:transparent; */
+}
+.nav-link{
+    color:black;
+    font-weight:700;
+    font-size:.95rem;
+    margin-left:2rem;
+}
+.nav-link.active{
+    color:#69a82c !important;
+}
+.nav-link:hover{
+    color:#69a82c !important;
+}
+.image-logo{
+    width:100px;
+    
+}
+
+
+#hero{
+    padding-top:15rem;
+    padding-bottom:6rem;
+}
+
+.head1{
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:1rem;
+}
+
+.head2{
+    font-size:45px;
+    font-weight:700;
+    color:#69a82c;
+    margin-bottom:3rem;
+}
+
+.para{
+   font-size:24px;
+   font-weight:300;
+   letter-spacing:1.75;
+   color:#999;
+}
+
+.sbq-w {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+
+.sbq {
+    padding: 18px 38px 13px 19px;
+    background-color:  #e9eee5;
+   
+    width: 620px;
+    height: 70px;
+    box-sizing: border-box;
+    border: solid 1px #69a82c;
+    margin-left:17rem;
+    margin-top:3rem;
+    border-radius: 7px;
+    font-size: 23px;
+    z-index: 1;
+    line-height: 0;
+}
+
+.placeholder{
+    font-size: 23px;
+    color:#69a82c;
+}
+
+
+
+.body{
+    margin-bottom:5rem;
+}
+
+
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+.accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";    
+    float: right;
+}
+.accordion-opened .accordion-toggle:after {    
+    content: "\f054";    
+}
